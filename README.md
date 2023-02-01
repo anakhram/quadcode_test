@@ -5,8 +5,8 @@ The script is designed to send events that occurred in the Telegram channel to S
 run script<br/>
 `python main_api_th.py -c config.json -v`
 
-config.json must contain `api_id`, `api_hash`, telephone number/bot token from Telegram API, also `hec_token` from Splunk 
-Exapmle of config.json:<br/>
+config.json must contain `api_id`, `api_hash`, telephone number/bot token from Telegram API, also `hec_token` from Splunk <br/>
+Example of config.json:<br/>
 `{`<br/>
  `    "API_ID" : "your api id",` <br/>
  `    "API_HASH" : "your api hash",`<br/>
