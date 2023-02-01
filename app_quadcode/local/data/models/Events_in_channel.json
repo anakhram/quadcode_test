@@ -1,0 +1,26 @@
+{
+    "modelName": "Events_in_channel",
+    "displayName": "Events in channel",
+    "description": "",
+    "objectSummary": {
+        "Event-Based": 0,
+        "Transaction-Based": 0,
+        "Search-Based": 1
+    },
+    "objects": [
+        {
+            "objectName": "RootObject",
+            "displayName": "Events_in_channel",
+            "parentName": "BaseSearch",
+            "comment": "",
+            "fields": [],
+            "calculations": [],
+            "constraints": [],
+            "lineage": "RootObject",
+            "baseSearch": "((index=\"main\") (sourcetype=\"_json\")) | fields \"_time\", \"_raw\""
+        }
+    ],
+    "objectNameList": [
+        "RootObject"
+    ]
+}

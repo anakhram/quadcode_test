@@ -1,0 +1,26 @@
+[app/ui]
+version = 9.0.3
+modtime = 1675093738.691128000
+
+[app/launcher]
+version = 9.0.3
+modtime = 1675093738.693487000
+
+[indexes/test_index]
+owner = nastya
+version = 9.0.3
+modtime = 1675270050.554259000
+
+[datamodels/Events_in_channel]
+access = read : [ admin, user ], write : [ admin, user ]
+export = none
+owner = nastya
+version = 9.0.3
+modtime = 1675270314.822087000
+
+[models/Events_in_channel]
+access = read : [ admin, user ], write : [ admin, user ]
+export = none
+owner = nastya
+version = 9.0.3
+modtime = 1675270314.829492000
